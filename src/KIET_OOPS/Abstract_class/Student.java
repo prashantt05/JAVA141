@@ -1,6 +1,6 @@
 package KIET_OOPS.Abstract_class;
 
-public class Student {
+abstract class Student {
     String name;
     int roll_no;
 
@@ -8,6 +8,6 @@ public class Student {
         this.name = name;
         this.roll_no = roll_no;
     }
-    abstract class attend_class();
-    abstract class give_exam();
+    abstract void attend_class();
+    abstract void give_exam();
 }
