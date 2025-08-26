@@ -1,4 +1,4 @@
-package KIET_OOPS.Polymorphism;
+package KIET_OOPS.Polymorphisma;
 
 public class Calculator {
     double ar;
