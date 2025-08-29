@@ -17,10 +17,10 @@ public class MyException {
         catch (InputMismatchException e){
             System.out.println(e);
         }
-        catch (Exception e){ // it handles all types of exceptions and it declared directly after try block
-            System.out.println(e.getMessage());
-        }
-        finally {
+//        catch (Exception e){ // it handles all types of exceptions and it declared directly after try block
+//            System.out.println(e.getMessage());
+//        }
+        finally {//It always executed whether there is a error or not
             System.out.println("Result "+ z);
         }
     }
